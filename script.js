@@ -1,0 +1,1 @@
+const profilePic=document.querySelector(".profile-pic");let angle=0;function rotateImage(){angle=(angle+1)%360,profilePic.style.transform=`rotate(${angle}deg)`}setInterval(rotateImage,20);
